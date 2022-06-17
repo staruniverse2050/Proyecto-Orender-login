@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    font-family: 'open sans';
+    background-color: rgb(110, 108, 107);
+
+}
+
+.contenedor{
+   padding: 60px 0; 
+   width: 90%;
+   max-width: 1000px;
+   margin: auto;
+   overflow: hidden ;
+}
+
+.titulo{
+   color: #fa5f06; 
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 600%;
+    background: #eba667;
+    background: -webkit-linear-gradient(to right, hsl(34, 90%, 67%), hsla(29, 91%, 64%, 0.801)), url(../nostros-orender/img/img5.jpg);
+    background: linear-gradient(to right, hsl(34, 90%, 67%), hsla(29, 91%, 64%, 0.801)), url(../nostros-orender/img/img5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*nav{
+    text-align: right;
+    padding: 30px 50px 00;
+}*/
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:rgb(12, 12, 12);
+
+}
+.textos-header h2{
+    font-size: 30px ;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.wave{
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+}
+
+/*about us*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-textos{
+width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #ff9203 ;
+    color: rgb(0, 0, 0); 
+    border-radius: 50%;
+    display: inline-block;  
+    text-align: center; 
+    width: 30px ;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, .5);
+    margin-right: 5px;  
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*galeria*/
+
+.portafolio{
+    background: #818080 ;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /*transform:scale(0) ;*/
+    background: hsla(29, 89%, 51%, 0.952);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: rgb(20, 20, 20);
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(0);
+}
+
+flooter {
+    background: #4facfe;
+    padding-bottom: 0.1px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 6px;
+    padding-bottom: 40px;
+}
+
+.pie {
+    background: #f5702e;
+    width: 1349px;
+    height: 148px;
+}
+
+.contact-us {
+    width: 40%;
+    color: rgb(0, 0, 0);
+}
+
+.social-media {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.social-media-iconico {
+    display: inline-block;
+    margin-left: 150px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 20px;
+}
+
+.social-media-icon:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.social-media-iconico:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.social-media-iconico i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+h5 {
+    display: inline-block;
+    margin-left: -12px;
+    text-align: center;
+}
+
+i {
+    justify-items: center;
+    align-items: center;
+}
