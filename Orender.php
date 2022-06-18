@@ -1,7 +1,4 @@
 
-    <?php
-    $conexion=mysqli_connect("localhost", "root", "", "Orende");
-?>
         <!DOCTYPE html>
         <html lang="es">
 
